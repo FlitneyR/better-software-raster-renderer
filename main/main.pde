@@ -10,7 +10,7 @@ void setup() {
 
   color_buf = new PImage(width, height);
 
-  tex = loadImage("test_texture.jpg");
+  tex = loadImage("../textures/test_texture.jpg");
   tex.filter(BLUR, texture_pre_blur);
 
   make_wood_box();
